@@ -1,0 +1,7 @@
+tong=0
+for a in range (10,100,10):
+  tong +=a
+print(tong)
+
+a= (b for b in range(10,100,10))
+print(sum(a))

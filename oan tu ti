@@ -1,0 +1,15 @@
+#oantuti ham gan gon
+import numpy
+luachon = ("bao","bua","keo");
+hienthi = ("hoa","thua","thang");
+luat = [
+        [0,1,2],
+        [2,0,1],
+        [1,2,0]]
+maychon = numpy.random.randint (3);
+nguoichon = luachon.index(input("chon:(bao,bua,keo):").lower())
+print("may: %s \nban: %s \nket qua: %s \n" \
+      % (luachon[maychon],luachon[nguoichon],hienthi[luat[maychon][nguoichon]]))
+# %s1:luachon[maychon],
+# %s2:luachon[nguoichon],
+# %s3:hien thi[luat[maychon][nguoichon]]

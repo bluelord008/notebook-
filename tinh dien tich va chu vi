@@ -1,0 +1,9 @@
+#code tinh dien tich va chu vi
+def ham_goi(dai,cao):
+  chu_vi=(dai+cao)*2
+  dien_tich=dai*cao
+  return chu_vi,dien_tich
+r_dai = int(input("chieudai:"))
+r_cao = int(input("chieucao:"))
+r_ketqua=ham_goi(r_dai,r_cao)
+print(r_ketqua)
